@@ -78,7 +78,39 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\site.css" />
+    <Content Include="css\super-hero-bootstrap.min.css" />
     <Content Include="gruntfile.js" />
+    <Content Include="images\chosen-sprite.png" />
+    <Content Include="images\cream_dust.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\fb-btn.png" />
+    <Content Include="images\icon_minus.png" />
+    <Content Include="images\icon_plus.png" />
+    <Content Include="images\login-body-bg.jpg" />
+    <Content Include="images\logo copy.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo2.png" />
+    <Content Include="images\profile-bg.jpg" />
+    <Content Include="images\profile-bg1.jpg" />
+    <Content Include="images\profile-bg2.jpg" />
+    <Content Include="images\profile-bg3.jpg" />
+    <Content Include="images\profile-bg4.jpg" />
+    <Content Include="images\profile-pic.png" />
+    <Content Include="images\sorting.png" />
+    <Content Include="images\sorting_asc.png" />
+    <Content Include="images\sorting_desc.png" />
+    <Content Include="images\user1.jpg" />
+    <Content Include="images\user1.png" />
+    <Content Include="images\user10.jpg" />
+    <Content Include="images\user2.jpg" />
+    <Content Include="images\user3.jpg" />
+    <Content Include="images\user4.jpg" />
+    <Content Include="images\user5.jpg" />
+    <Content Include="images\user6.jpg" />
+    <Content Include="images\user7.jpg" />
+    <Content Include="images\user8.jpg" />
+    <Content Include="images\user9.jpg" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
