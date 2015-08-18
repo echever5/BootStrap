@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact.html" />
+    <Content Include="about.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include=".bowerrc" />
@@ -112,6 +114,7 @@
     <Content Include="images\user8.jpg" />
     <Content Include="images\user9.jpg" />
     <Content Include="index.html" />
+    <Content Include="site.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

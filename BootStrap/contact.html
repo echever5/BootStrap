@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/super-hero-bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page">
+
+        <header class="container">
+            <div id="menu" class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
+
+                    <div id="logo">
+                        <a href="."><h4>The Big lebwiski</h4></a>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav"><a href="index.html">Home</a></li>
+                        <li class="nav"><a href="about.html">About</a></li>
+                        <li class="nav active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section id="body" class="container">
+            <h1>Contact Us</h1>
+            <p>
+                Classic Achiever $22.00 Jeffrey Fucking Lebowski 3D $25.00 Treehorn Doodle Pad Six Pack $20.00 ... Lebowksi Fest is not affiliated with the creators of The Big Lebowski. We are just huge
+            </p>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#formTab" data-toggle="tab">Contact Form</a></li>
+                <li><a href="#addressTab" data-toggle="tab">Address</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="well tab-pane active" id="formTab">
+                    <div class="row">
+                        <form class="form-horizontal" id="contactForm">
+                            <div class="form-group">
+                                <label for="nameInput" class="control-label col-md-2">Your Name</label>
+                                <div class="col-md-10">
+                                    <div class="input-group">
+                                        <input type="text" name="nameInput" class="form-control" placeholder="e.g. Your Name" />
+                                        <span class="input-group-addon">!</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="emailInput" class="control-label col-md-2">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" name="emailInput" class="form-control" placeholder="e.g. Your Email" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2"> favorite</label>
+                                <div class="col-md-10">
+                                    <div class="btn-group btn-group-sm" data-toggle="buttons">
+                                        <label class="btn btn-success"><input type="radio" /> Dude</label>
+                                        <label class="btn btn-success"><input type="radio" />The Donny</label>
+
+                                        <label class="btn btn-success"><input type="radio" />The maude</label>
+                                        <div class="btn-group btn-group-sm">
+                                            <button class="btn btn-success" data-toggle="dropdown">
+                                                Other
+                                            </button>
+                                            <button class="btn btn-success" data-toggle="dropdown"><span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li> <a href="#" tabindex="-1">Walter</a></li>
+                                                <li><a href="#" tabindex="-1">Bunny</a></li>
+                                                <li class="disabled"><a href="#" tabindex="-1">The Big Lebowski</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2">Reason</label>
+                                <div class="col-md-10">
+                                    <!--<select class="form-control">
+                                <option>Adoration</option>
+                                <option>Ordering a white Russian</option>
+                                <option>Complaint</option>
+                                <option>I am lost</option>
+                            </select>-->
+                                    <div class="dropdown">
+                                        <button class="btn btn-success" id="pickButton">Pick One</button>
+                                        <button class="btn btn-success" data-toggle="dropdown"><span class="caret"></span></button>
+                                        <ul class="dropdown-menu" id="reasonDropdown">
+                                            <li><a href="#" tabindex="-1">Adoration</a></li>
+                                            <li><a href="#" tabindex="-1">Ordering white russian</a></li>
+                                            <li><a href="#" tabindex="-1">Complanint</a></li>
+                                            <li><a href="#" tabindex="-1">I m lost</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">Message</label>
+                                <div class="col-md-10">
+                                    <textarea cols="40" rows="6" class="form-control" placeholder="e.g. The Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-2">
+                                    <input type="submit" value="Submit" class="btn btn-success" />
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+
+                <div class="well tab-pane" id="addressTab">
+                    <h3>Our fake address</h3>
+                    <p>Big Lebowski fan page 123 main Street</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <footer class="container">
+            <p>Text Place holder</p>
+        </footer>
+    </div>
+    
+    <div class="modal fade" id="sentDialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" class="close" data-dismiss="modal">&times;</a>
+                    <h4>Tanks for clicking</h4>
+                </div>
+                <div class="modal-body">
+                    <p> This modla dosent really work... jaja</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="site.js"></script>
+</body>
+</html>
