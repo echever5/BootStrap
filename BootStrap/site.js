@@ -16,8 +16,12 @@
 	});
 
 	$sentDialog.on("hidden.bs.modal",function () {
-		alert("close");
-	}
-	
-	)
+		 //alert("close");
+		 $("#sentAlert").show();
+	})
+
+	$("#contactForm input[type=submit]").tooltip();
+
+	$("#theCarousel").carousel();
+
 })();

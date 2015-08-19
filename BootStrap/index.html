@@ -37,11 +37,58 @@
                 </p>
             </div>
             <div class="row visible-md visible-lg">
-                <img src="images/user1.jpg" alt="1" class="col-md-2 col-md-offset-2" />
-                <img src="images/user2.jpg" alt="2" class="col-md-2" />
-                <img src="images/user3.jpg" alt="1" class="col-md-2" />
-                <img src="images/user4.jpg" alt="2" class="col-md-2" />
+                <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                    <div class="carousel slide" id="theCarousel" data-interval="2000">
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#theCarousel" data-slide-to="0"></li>
+                            <li data-target="#theCarousel" data-slide-to="1"></li>
+                            <li data-target="#theCarousel" data-slide-to="2"></li>
+                            <li data-target="#theCarousel" data-slide-to="3"></li>
+
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/profile-bg1.jpg" alt="1" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Bowling</h4>
+                                    <p>Twitter (info@twitter.com) Your junk email filter is set to exclusive.Sent:	Tue 8/18/15 7:50 PMTo:	Marcelo Echeverria (echever5@hotmail.com)</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/profile-bg2.jpg" alt="2" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Pattern</h4>
+                                    <p>Twitter (info@twitter.com) Your junk email filter is set to exclusive.Sent:	Tue 8/18/15 7:50 PMTo:	Marcelo Echeverria (echever5@hotmail.com)</p>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <img src="images/profile-bg3.jpg" alt="3" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Moving</h4>
+                                    <p>Twitter (info@twitter.com) Your junk email filter is set to exclusive.Sent:	Tue 8/18/15 7:50 PMTo:	Marcelo Echeverria (echever5@hotmail.com)</p>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <img src="images/profile-bg4.jpg" alt="4" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>pors</h4>
+                                    <p>Twitter (info@twitter.com) Your junk email filter is set to exclusive.Sent:	Tue 8/18/15 7:50 PMTo:	Marcelo Echeverria (echever5@hotmail.com)</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#theCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
+                        <a href="#theCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
+                    </div>
+                </div>
             </div>
+            <hr />
 
             <section id="main" class="col-md-8 col-sm-9 col-xs-6">
                 <h1>The Big Lebowski fun page</h1>
@@ -105,10 +152,10 @@
                             Four short links: 13 August 2015 Elements of Style: Learning Perceptual Shape Style Similarity — code and data for research that helps perceive stylistic similarity between objects that transcends structure and function. For example, we can see a common style such as “Danish modern” in both …
                             Take Control of Your Apple Wi-Fi Network Make your Apple Wi-Fi network fast, reliable, and secure!Updated August 7, 2015Join Wi-Fi wizard Glenn Fleishman and learn to create a fast, reliable, and secure Apple Wi-Fi network using 802.11ac or 802.11n AirPort Extreme, AirPort Express, and Time Capsule base stations.You'll find plenty of
                         </p>
-                    </div>  
-                     <div class="panel-footer">
-                         <button class="btn btn-primary">Push me</button>
-                     </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-primary">Push me</button>
+                    </div>
                 </div>
             </section>
 
@@ -120,5 +167,6 @@
     </div>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="site.js"></script>
 </body>
 </html>
